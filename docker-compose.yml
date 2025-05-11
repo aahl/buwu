@@ -1,6 +1,6 @@
 services:
   browser-use-webui:
-    image: ghcr.io/browser-use/web-ui # Using precompiled image
+    image: ghcr.io/aahl/buwu # Using precompiled image
     ports:
       - "7788:7788"  # Gradio default port
       - "6080:6080"  # noVNC web interface
